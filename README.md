@@ -49,52 +49,34 @@ For non-Vine Program reviews (unpaid), we simply changed the filter from Y to N:
 
 <img src="https://github.com/jackogross123/Amazon_Vine_Analysis/blob/main/Resources/step_4.png" width="700" >
 
-#### Non-Vine Reviews Count
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Count_3.PNG" width="700"> 
-
 ### 5-Star Ratings of Vine and non-Vine Reviews
 
-To further explore bias in reviews, we wanted if Vine reviewers tended to give 5-star ratings more often than non-Vine. To begin, we needed to find the 5-star ratings for each type of review, we filtered the ```vine_helpful_votes_df``` by the star_rating column ```total_five_star_reviews_df = vine_helpful_votes_df.filter("star_rating == 5")```. Using the new ```total_five_star_reviews_df``` dataframe, we filtered it again by the vine column, Y and N, similar to what we did in the last section.
+To further explore bias in reviews, we wanted to determine if Vine reviewers gavr 5-star ratings more often than non-Vine.  Using the new total_five_star_reviews_df dataframe, we filtered it again by the vine column, Y and N, similar to what we did in the last section.
 
-There were a total of **21,061** 5-star reviews, of those, **56** were paid and **21,005** were unpaid.
-
-#### Total 5-Star Reviews Count
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Count_4.PNG" width="700"> 
-
-#### Vine 5-Star Reviews Count
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Count_5.PNG" width="700"> 
-
-#### Non-Vine 5-Star Reviews Count
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Count_6.PNG" width="700"> 
+There were a total of 21,061 5-star reviews, of those, 56 were paid and 21,005 were Vine. Vine people were much more likely to give a 5 star review. However, it's important to study the percentages of good votes to overall votes to determine if the percentages are the same.
 
 ### Percent 5-Star Ratings of Vine and non-Vine Reviews
 
 To complete our bias analysis, we needed to see what percent of the total Vine and non-Vine reviews were 5-star reviews and compare. Using the variables we calculated in previous steps, we determined the following percentages:
 
 #### % 5-Star Vine Reviews of Total
-56 out of 107 Reviews = **52.34%**
-
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Percent_1.PNG" width="700"> 
+56 out of 107 Reviews = 52.34%
 
 #### % 5-Star non-Vine Reviews of Total
-21,005 out of 39,869 Reviews = **52.69%**
+21,005 out of 39,869 Reviews = 52.69%
 
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Percent_2.PNG" width="700"> 
-
-Given these results, Vine reviews were no more and less likely to give outdoor products a 5-star review. The results also show that there does not appear to be any bias, positive or negative, in the Vine review program for outdoor products.
+Given these results, Vine reviews have the same liklehood of giving a 5-star review. There doesn't appear to be any bias.
 
 ### Additional Analysis
 
 To further this conclusion, we wanted to find out just how small of sample the 5-star Vine reviews were among all 5-star reviews.
 
 #### % 5-Star Vine Reviews of Total 5-Star
-56 out of 21,061 Reviews = **0.27%**
+56 out of 21,061 Reviews = 0.27%
 
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Percent_3.PNG" width="700"> 
 
 #### % 5-Star Vine Reviews of Total 5-Star
-21,005 out of 21,061 Reviews = **99.73%**
+21,005 out of 21,061 Reviews = 99.73%
 
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Percent_4.PNG" width="700"> 
 
-Because 5-star Vine reviews represent a small portion **0.27%** of all 5-star reviews, they are unlikely to have create positivity bias for reviews on the entire dataset. We could also look at the summary stats - mean, median, and mode - to see the distribution curve of Vine member ratings. This could clue us in even more as it would provide a better visual aid.
+Because 5-star Vine reviews represent a small portion 0.27% of all 5-star reviews, they are unlikely to have create positivity bias for reviews on the entire dataset. We could also look at the summary stats - mean, median, and mode - to see the distribution curve of Vine member ratings. This could clue us in even more as it would provide a better visual aid.
