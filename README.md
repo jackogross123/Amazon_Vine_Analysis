@@ -37,15 +37,9 @@ Using this df, we could filter it once more to find out how many of those review
 #### Vine (Paid) Filtered Dataframe
 <img src="https://github.com/jackogross123/Amazon_Vine_Analysis/blob/main/Resources/step_3.png" width="700" >
 
-#### Total Helpful Reviews
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Count_1.PNG" width="700"> 
-
-#### Vine Reviews Count
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Count_2.PNG" width="700"> 
-
 #### Non-Vine (Unpaid) Filtered Dataframe
 
-For non-Vine Program reviews, we simply changed the filter from Y to N. Using this filtered dataframe, we found that there were 39,869 unpaid reviews for outdoor products out of **39,976** total.
+For non-Vine Program reviews, we simply changed the filter from Y to N. Using this filtered dataframe, we found that there were 39,869 unpaid reviews for outdoor products out of 39,976 total.
 
 <img src="https://github.com/jackogross123/Amazon_Vine_Analysis/blob/main/Resources/step_4.png" width="700" >
 
