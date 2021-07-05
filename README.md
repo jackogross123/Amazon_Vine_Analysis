@@ -47,7 +47,7 @@ Using ```vine_helpful_votes_df```, we could filter it once more to find out how 
 
 For non-Vine Program reviews (unpaid), we simply changed the filter from Y to N: ```vine_unpaid_helpful_df = vine_helpful_votes_df.filter("vine == 'N'")```. Using this filtered dataframe, we found that there were **39,869** unpaid reviews for outdoor products out of **39,976** total.
 
-<img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Filter_4.PNG" width="700" >
+<img src="https://github.com/jackogross123/Amazon_Vine_Analysis/blob/main/Resources/step_4.png" width="700" >
 
 #### Non-Vine Reviews Count
 <img src="https://github.com/dwwatson1/Amazon_Vine_Analysis/blob/main/images/Count_3.PNG" width="700"> 
