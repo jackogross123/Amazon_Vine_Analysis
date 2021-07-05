@@ -71,4 +71,4 @@ To further this conclusion, we wanted to find out just how small of sample the 5
 ##### % 5-Star Vine Reviews of Total 5-Star
 21,005 out of 21,061 Reviews = 99.73%
 
-Because 5-star Vine reviews represent a small portion 0.27% of all 5-star reviews, they are unlikely to have create positivity bias for reviews on the entire dataset. We could also look at the summary stats to see if there is an irregular doistribution of teh data.
+Because 5-star Vine reviews represent a small portion 0.27% of all 5-star reviews, they are unlikely to have create positivity bias for reviews on the entire dataset. We could also look at the summary stats to see if there is an irregular doistribution of teh data. Also, there should be studies amongst different departments and products to determine what the trends are. I think that with this expanded analysis one may be able to determine the bias of the vine reviwews.
